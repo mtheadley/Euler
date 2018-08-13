@@ -1,0 +1,1 @@
+export GOPATH=/Users/mark/Development/Euler/golang

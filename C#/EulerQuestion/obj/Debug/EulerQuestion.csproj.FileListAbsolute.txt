@@ -1,0 +1,26 @@
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.dll
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.pdb
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.dll
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.pdb
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.dll
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.pdb
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.csprojResolveAssemblyReference.cache
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.dll
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.pdb
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem013.txt
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem011.txt
+C:\Users\mheadley\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem008.txt
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem013.txt
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem011.txt
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem008.txt
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.dll
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\EulerQuestion.pdb
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.csprojResolveAssemblyReference.cache
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.dll
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\obj\Debug\EulerQuestion.pdb
+C:\Users\mark\Documents\My Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem022.txt
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem013.txt
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem011.txt
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem008.txt
+C:\Users\Mark\Dropbox\Garage\Euler\EulerApplication\EulerQuestion\bin\Debug\files\problem022.txt

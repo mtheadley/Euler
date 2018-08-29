@@ -1,4 +1,4 @@
-package main
+package problems
 
 import (
 	"fmt"
@@ -6,10 +6,11 @@ import (
 	"strings"
 )
 
-func main() {
+func Problem004() string {
 	foundOne := 0
-	for i := 9999; i > 1; i-- {
-		for j := 9999; j > 1; j-- {
+	maxNumber := 999
+	for i := maxNumber; i > 1; i-- {
+		for j := maxNumber; j > 1; j-- {
 			if isPalindrome(i * j) {
 				if i*j > foundOne {
 					foundOne = i * j
@@ -18,7 +19,7 @@ func main() {
 		}
 	}
 
-	fmt.Println(foundOne)
+	return fmt.Sprintf("Result: %d", foundOne)
 }
 
 func isPalindrome(value int) bool {

@@ -1,12 +1,12 @@
-package main
+package problems
 
 import (
 	"euler_math"
 	"fmt"
 )
 
-func main() {
-	fmt.Println("Value:  ", locatePrimeValue(10001))
+func Problem007() string {
+	return fmt.Sprintf("Value:  %f", locatePrimeValue(10001))
 }
 
 func locatePrimeValue(value int) int {

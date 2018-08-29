@@ -1,11 +1,11 @@
-package main
+package problems
 
 import (
 	"euler_math"
 	"fmt"
 )
 
-func main() {
+func Problem001() string {
 	maxItem := 1000
 
 	factorsOfThreePrime := euler_math.GetSpecificFactors(maxItem, 3)
@@ -15,7 +15,7 @@ func main() {
 
 	comboPrime := sum(comboArrayPrime)
 
-	fmt.Println("SUM: ", comboPrime)
+	return fmt.Sprintf("Sum: %d", comboPrime)
 }
 
 func mergeArray(arrayOne []int, arrayTwo []int) []int {
@@ -40,17 +40,6 @@ func contains(s []int, e int) bool {
 	return false
 }
 
-func determineFactors2(max int, factor int) []int {
-	var result []int
-	for i := 0; i < max; i++ {
-		if i%factor == 0 {
-			result = append(result, i)
-		}
-	}
-
-	return result
-}
-
 func sum(items []int) int {
 	total := 0
 
@@ -59,8 +48,4 @@ func sum(items []int) int {
 	}
 
 	return total
-}
-
-func printSlice(s []int) {
-	fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
 }

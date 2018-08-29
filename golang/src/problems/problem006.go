@@ -1,19 +1,19 @@
-package main
+package problems
 
 import (
 	"euler_math"
 	"fmt"
 )
 
-func main() {
+func Problem006() string {
 	count := 100
 	soSquare := euler_math.SumOfSquares(count)
 	soSums := euler_math.SquareOfSums(count)
 
-	fmt.Println("Sum of squares: ", soSquare)
-	fmt.Println("Square of sums: ", soSums)
+	// fmt.Println("Sum of squares: ", soSquare)
+	// fmt.Println("Square of sums: ", soSums)
 
-	fmt.Println("Difference: ", soSums-soSquare)
+	return fmt.Sprintf("Difference: %d", soSums-soSquare)
 }
 
 func sumOfSquares(count int) int {

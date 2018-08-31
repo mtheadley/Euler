@@ -1,7 +1,13 @@
 package utils
 
-import "fmt"
+func Max(v []int) int {
+	max := 0
 
-func PrintSlice(s []int) string {
-	return fmt.Sprintf("len=%d cap=%d %v\n", len(s), cap(s), s)
+	for _, e := range v {
+		if e > max {
+			max = e
+		}
+	}
+
+	return max
 }

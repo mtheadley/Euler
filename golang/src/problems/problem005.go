@@ -3,17 +3,21 @@ package problems
 import (
 	"euler_math"
 	"fmt"
-	"utils"
 )
 
 func Problem005() string {
-	getPrimes(12)
-	return "SLACKER 2"
+	return fmt.Sprintf("%d", determineSmallestMultiple(10))
 }
 
-// func getPrimes(value int) map[int]int {
-func getPrimes(value int) {
-	primes := euler_math.GetPrimeFactors(value)
+func determineSmallestMultiple(highestNumber int) int {
+	num1 := 1
+	num2 := 0
+	for i := 1; i <= highestNumber; i++ {
+		num2 = i
 
-	fmt.Println(utils.PrintSlice(primes))
+		//fmt.Println("LCM: ", euler_math.LeastCommonMultiple(num1, num2), num1, num2)
+		num1 = euler_math.LeastCommonMultiple(num1, num2)
+	}
+
+	return num1
 }

@@ -1,6 +1,11 @@
 package euler_math
 
-import "math"
+import (
+	"fmt"
+	"intersect"
+	"math"
+	"utils"
+)
 
 func GetAllFactors(value int) []int {
 	var result []int
@@ -19,6 +24,33 @@ func GetAllFactors(value int) []int {
 	}
 
 	return result
+}
+
+func LeastCommonMultiple(num1 int, num2 int) int {
+	fmt.Println("LCM: ", num1, num2)
+	return (num1 * num2) / GreatestCommonDivisor(num1, num2)
+}
+
+func GreatestCommonDivisor(num1 int, num2 int) int {
+	factors1 := GetAllFactors(num1)
+	factors2 := GetAllFactors(num2)
+	max := 0
+
+	fmt.Println("*****")
+	fmt.Println("GCM: ", num1, num2)
+	fmt.Println("Factors 1: ", fmt.Sprintf("%v\n", factors1))
+	fmt.Println("Factors 2: ", fmt.Sprintf("%v\n", factors2))
+
+	if commonFactors, ok := intersect.Simple(factors1, factors2).([]int); ok {
+		fmt.Println("Slice: " + fmt.Sprintf("%v\n", commonFactors))
+		fmt.Println("max: ", utils.Max(commonFactors))
+		max = utils.Max(commonFactors)
+	} else {
+		fmt.Println("Uh-oh ", commonFactors)
+	}
+	fmt.Println("*****")
+
+	return max
 }
 
 func GetSpecificFactors(max int, factor int) []int {

@@ -1,6 +1,7 @@
 package problems
 
 import (
+	"bytes"
 	"fmt"
 	"io/ioutil"
 )
@@ -15,4 +16,16 @@ func check(e error) {
 	if e != nil {
 		panic(e)
 	}
+}
+
+func buildLines(fileContents []byte) []string {
+	newLine := []byte{'\n'}
+	individualLines := bytes.Split(fileContents, newLine)
+	var results []string
+
+	for _, i := range individualLines {
+		results = append(results, string(i))
+	}
+
+	return results
 }

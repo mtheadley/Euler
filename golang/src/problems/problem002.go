@@ -3,7 +3,7 @@ package problems
 import "fmt"
 
 func Problem002() string {
-	return fmt.Sprintf("Total: %d", fibbo(4000000))
+	return fmt.Sprintf("%d", fibbo(4000000))
 }
 
 func fibbo(termToStopOn int) int {

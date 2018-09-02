@@ -13,7 +13,7 @@ func Problem006() string {
 	// fmt.Println("Sum of squares: ", soSquare)
 	// fmt.Println("Square of sums: ", soSums)
 
-	return fmt.Sprintf("Difference: %d", soSums-soSquare)
+	return fmt.Sprintf("%d", soSums-soSquare)
 }
 
 func sumOfSquares(count int) int {

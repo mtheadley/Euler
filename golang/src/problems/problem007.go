@@ -6,7 +6,8 @@ import (
 )
 
 func Problem007() string {
-	return fmt.Sprintf("Value:  %f", locatePrimeValue(10001))
+	// return fmt.Sprintf("%f", locatePrimeValue(10001))
+	return fmt.Sprintf("NOPE")
 }
 
 func locatePrimeValue(value int) int {

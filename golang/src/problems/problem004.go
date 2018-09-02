@@ -19,7 +19,7 @@ func Problem004() string {
 		}
 	}
 
-	return fmt.Sprintf("Result: %d", foundOne)
+	return fmt.Sprintf("%d", foundOne)
 }
 
 func isPalindrome(value int) bool {

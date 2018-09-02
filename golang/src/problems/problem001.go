@@ -15,7 +15,7 @@ func Problem001() string {
 
 	comboPrime := sum(comboArrayPrime)
 
-	return fmt.Sprintf("Sum: %d", comboPrime)
+	return fmt.Sprintf("%d", comboPrime)
 }
 
 func mergeArray(arrayOne []int, arrayTwo []int) []int {

@@ -2,11 +2,11 @@ package problems
 
 import (
 	"euler_math"
-	"fmt"
 )
 
 func Problem005() string {
-	return fmt.Sprintf("%d", determineSmallestMultiple(10))
+	//return fmt.Sprintf("%d", determineSmallestMultiple(10))
+	return "NOPE"
 }
 
 func determineSmallestMultiple(highestNumber int) int {

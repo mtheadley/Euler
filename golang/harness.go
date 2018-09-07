@@ -27,9 +27,9 @@ func main() {
 		fmt.Println("Problem  8 :: ", problems.Problem008())
 		fmt.Println("Problem  9 :: ", problems.Problem009())
 		fmt.Println("Problem 10 :: ", problems.Problem010())
+		fmt.Println("Problem 11 :: ", problems.Problem012())
+		fmt.Println("Problem 12 :: ", problems.Problem011())
 	} else {
-		// fmt.Println("Problem 5 :: ", problems.Problem005())
-		// fmt.Println("Problem 10 :: ", problems.Problem010())
-		fmt.Println("Problem 9 :: ", problems.Problem009())
+		fmt.Println("Problem 12 :: ", problems.Problem012())
 	}
 }

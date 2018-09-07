@@ -30,6 +30,6 @@ func main() {
 		fmt.Println("Problem 11 :: ", problems.Problem012())
 		fmt.Println("Problem 12 :: ", problems.Problem011())
 	} else {
-		fmt.Println("Problem 12 :: ", problems.Problem012())
+		fmt.Println("Problem 15 :: ", problems.Problem015())
 	}
 }

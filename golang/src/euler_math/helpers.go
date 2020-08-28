@@ -41,7 +41,7 @@ func GreatestCommonDivisor(num1 int, num2 int) int {
 	fmt.Println("Factors 1: ", fmt.Sprintf("%v\n", factors1))
 	fmt.Println("Factors 2: ", fmt.Sprintf("%v\n", factors2))
 
-	if commonFactors, ok := intersect.Simple(factors1, factors2).([]int); ok {
+	if commonFactors, ok := intersect.Sorted(factors1, factors2).([]int); ok {
 		fmt.Println("Slice: " + fmt.Sprintf("%v\n", commonFactors))
 		fmt.Println("max: ", utils.Max(commonFactors))
 		max = utils.Max(commonFactors)
@@ -105,4 +105,12 @@ func SquareOfSums(count int) int {
 	}
 
 	return sum * sum
+}
+
+func Factorial(n uint64) (result uint64) {
+	if n > 0 {
+		result = n * Factorial(n-1)
+		return result
+	}
+	return 1
 }
